@@ -1,0 +1,18 @@
+:root {
+    --heading-font: 'Integral CF', sans-serif;
+    --body-font: 'Satoshi';
+    --faded-black-color: rgba(0,0,0,0.6);
+}
+
+body {
+    margin: 0;
+    font-family: var(--body-font);
+    /* background-color: #F2F0F1; */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    margin: 0;
+}
+p {
+    margin: 0;
+}
