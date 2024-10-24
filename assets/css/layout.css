@@ -1,0 +1,56 @@
+.container {
+    max-width: 1240px;
+    padding: 0 100px;
+    margin: auto;
+}
+.hero {
+    background-color: #F2F0F1;
+}
+.hero__inner {
+    padding-top: 44px;
+    display: flex;
+    gap: 55px;
+}
+.hero__left,
+.hero__right {
+    flex: 1;
+}
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.hero__right {
+    position: relative;
+}
+.hero__image {
+    max-width: 100%;
+}
+.hero__stats {
+    display: flex;
+    gap: 32px;
+}
+.hero__stat-divider {
+    width: 1px;
+    background-color: black;
+    opacity: 0.1;
+    height: 74px;
+}
+.hero__top-left {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.hero__icon-small-star,
+.hero__icon-big-star {
+    position: absolute;
+}
+.hero__icon-big-star {
+    right: -15px;
+    top: 11px;
+}
+.hero__icon-small-star {
+    right: 545px;
+    top: 142px;
+}
