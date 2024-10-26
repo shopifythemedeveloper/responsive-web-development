@@ -1,0 +1,106 @@
+@media (min-width: 446px) and (max-width: 997px) {
+    .hero__heading,
+    .hero__paragraph {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .hero__stat-divider {
+        display: none;
+    }
+    .hero__inner {
+        align-items: center;
+    }
+}
+@media (min-width: 998px) and (max-width: 1400px) {
+    .hero__inner {
+        padding-left: 40px;
+        padding-right: 40px;
+        gap: 40px;
+    }
+    .hero__heading {
+        font-size: 48px;
+    }
+    .hero__left {
+        max-width: 45vw;
+    }
+    .hero__icon-small-star {
+        right: unset;
+        left: 10px;
+    }
+    .hero__stats {
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+    .hero__stat-number {
+        font-size: 32px;
+    }
+    .hero__image {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+@media (max-width: 997px) {
+    .hero__inner {
+        flex-direction: column;
+        padding: 0 20px;
+        padding-top: 40px;
+        gap: 30px;
+    }
+    .hero__top-left {
+        margin-top: 0;
+        gap: 0;
+    }
+    .hero__heading {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .hero__paragraph {
+        font-size: 14px;
+        margin-bottom: 24px;
+    }
+    .hero__button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .hero__stats {
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: 27px;
+        row-gap: 12px;
+    }
+    .hero__stat-number {
+        font-size: 24px;
+    }
+    .hero__stat-subtitle {
+        font-size: 12px;
+    }
+    .hero__stat:not(:first-child) + .hero__stat-divider {
+        display: none;
+    }
+    .hero__stat-divider {
+        height: 52px;
+    }
+    .hero__icon-big-star {
+        width: 75px;
+        height: auto;
+        right: 2px;
+        top: 16px;
+    }
+    .hero__icon-small-star {
+        width: 43px;
+        height: auto;
+        left: 10px;
+        top: 113px;
+    }
+}
+@media (max-width: 445px) {
+    .hero__image {
+        max-width: 110vw;
+        transform: translateX(calc(-20px - 5vw));
+    }
+}
+@media (max-width: 352px) {
+    .hero__heading {
+        font-size: 32px;
+    }
+}
